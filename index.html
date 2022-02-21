@@ -11,54 +11,49 @@
       crossorigin="anonymous"/>
   </head>
 <body>
-
-    <header class="header">
-        <div class="container">
-            <div class="header__wrapper">
-                  <div class="header__left">
-                       <div class="header__logo">
-                             <img src="/LOGO.png" alt="logo" class="img__logo">
-                        </div>
-                  </div>
-                        <div class="header__right">
-                              <ul class="header__list">
-                                    <li class="header__items">
-                                            <a href="#" class="header__link">ГЛАВНАЯ</a>
-                                    </li>
-                                    <li class="header__items">
-                                            <a href="#" class="header__link">МЕНЮ</a>
-                                    </li>
-                                    <li class="header__items">
-                                            <a href="#" class="header__link">О НАС</a>
-                                    </li>
-                                    <li class="header__items">
-                                            <a href="#" class="header__link">БРОНЬ</a>
-                                    </li>
-                                    <div class="header__cart_icon">
-                                      <i class="fas fa-shopping-cart"></i>
-                                    </div>
-                                    <div class="header__vl"></div>
-                                    <div class="header__info">
-                                      <div class="header__info_phone">
-                                        <i class="fas fa-phone"></i>
-                                        <div class="header__info_phone_number">+999-888-76-54</div>
-                                        </div>
-
-                                        <div class="header__info_info">Свяжитесь с нами для 
-                                          бронирования</div>
-                                      </div>
-
-                                    </div>
-                                    <button type="button" class="header__info_btn">ЗАКАЗ СТОЛИКА</button>
-                              </ul>
- 
-
-                       </div>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__left">
+          <div class="header__logo">
+              <img src="./LOGO.png" alt="logo" class="img__logo">
+          </div>
+        </div>
+          <div class="header__right">
+            <ul class="header__list">
+              <li class="header__items">
+                <a href="#" class="header__link">ГЛАВНАЯ</a>
+              </li>
+              <li class="header__items">
+                <a href="#" class="header__link">МЕНЮ</a>
+              </li>
+              <li class="header__items">
+                <a href="#" class="header__link">О НАС</a>
+              </li>
+              <li class="header__items">
+                <a href="#" class="header__link">БРОНЬ</a>
+              </li>
+            </ul>
+            <div class="header__contact">              
+              <div class="header__cart_icon">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+              <div class="header__vl"></div>
+              <div class="header__info">
+              <div class="header__info_phone">
+                <i class="fas fa-phone"></i>
+                <div class="header__info_phone_number">+999-888-76-54</div>
+                </div>
+                <div class="header__info_info">Свяжитесь с нами для 
+                  бронирования</div>
               </div>
-
+            </div>
+            <button type="button" class="header__info_btn">ЗАКАЗ СТОЛИКА</button></div>
+        </div>
       </div>
     </header>
     <main>
+      <!-- BANNER  -->
       <section class="banner">
        <div class="image__container">
             <div class="container">
@@ -69,106 +64,137 @@
                   <h1>Наш ресторан</h1>
                 </div>
                 <div class="banner_house">
-                  <div class="banner__hl"></div>
                   <h2 class="banner__headline_house">ДОМ ЛУЧШЕЙ ЕДЫ</h2>
-                  <div class="banner__hl"></div>
                 </div>
                 <button type="button" class="banner__btn_menu"> МЕНЮ </button>
             </div>
        </div>
-       <div class="history__container">
+        </section>
+        <!-- FOOD -->
+       <section class="food">
          <div class="container">
-           <div class="history__benefits">
-             <div class="benefits__block">
-
-               <div class="benefits__tray_container">
-                <img src="/tray.png" alt="tray" class="benefits__tray_img">                
+           <div class="food__wrapper">
+             <div class="food__card">
+               <div class="food__img">
+                <img src="./tray.png" alt="tray">                
                </div>
-               <div class="benefits__header">
-                <h3>Магическая <span class="benefits__header_drop">Атмосфера</span> </h3>
-               </div>
-               <div class="benefits__info">
-                В нашем заведении царит магическая атмосфера
-                наполненная вкусными ароматами
-               </div>
+                <h3 class="food__title">Магическая <span class="yellow__drop">Атмосфера</span> </h3>
+               <p class="food__text">
+                  В нашем заведении царит магическая атмосфера
+                  наполненная вкусными ароматами
+               </p>
              </div>
-             <div class="benefits__block">
-              <div class="benefits__tray_container">
-                <img src="/tray.png" alt="tray" class="benefits__tray_img">
+             <div class="food__card">
+              <div class="food__img">
+                <img src="./tray.png" alt="tray">
               </div>
-              <div class="benefits__header">
-                <h3>Лучшее качество  <span class="benefits__header_drop">Еды</span> </h3>
-               </div>
-               <div class="benefits__info">
-                Качество нашей <br>
-                Еды - отменное!                
-               </div>
+                <h3 class="food__title">Лучшее качество  <span class="yellow__drop">Еды</span> </h3>
+               <p class="food__text">
+                  Качество нашей <br>
+                  Еды - отменное!                
+               </p>
              </div>
-             <div class="benefits__block">
-               <div class="benefits__tray_container">
-                <img src="/tray.png" alt="tray" class="benefits__tray_img">
+             <div class="food__card">
+               <div class="food__img">
+                <img src="./tray.png" alt="tray">
              </div>
-             <div class="benefits__header">
-              <h3>Недорогая  <span class="benefits__header_drop">Еда</span> </h3>
-             </div>
-             <div class="benefits__info">
-              Стоимость нашей Еды
-              зависит только от ее
-              количества. Качество
-              всегда на высоте!
-             </div>
+              <h3 class="food__title">Недорогая  <span class="yellow__drop">Еда</span> </h3>
+             <p class="food__text">
+                Стоимость нашей Еды
+                зависит только от ее
+                количества. Качество
+                всегда на высоте!
+             </p>
              </div>
            </div>
-           <div class="history__wrapper">
-            <div class="history__left_section">
-              <div class="history__ours_headline">
-                <h3>
-                 Наша <span class="benefits__header_drop">История</span> 
+          </div>
+        </section>
+        <!-- HISTORY -->
+           <section class="history">
+             <div class="container">
+               <div class="history__wrapper">
+                 
+            <div class="history__left">
+                <h3 class="history_headline">
+                 Наша <span class="yellow__drop">История</span> 
                 </h3>
-              </div>
-              <div>
-               <h4 class="history__ours_info">Как и у любого другого самобытного места, у нас есть своя, особая история.
+               <p class="history_text">Как и у любого другого самобытного места, у нас есть своя, особая история.
                  Идея ресторана пришла основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял
                  в сотнях километров от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать
-                 себе нехитрый быт, добывать и готовить себе еду.</h4>
-              </div>
-              <div class="history__ours_statistics">
-                <div class="history__statistics_block">
-                  <div class="history__statistics_number">93</div>
-                  <div class="history__statistics_name">Напитки</div>
+                 себе нехитрый быт, добывать и готовить себе еду.</p>
+              <div class="history_statistics">
+                <div class="history__card">
+                  <div class="history__number">93</div>
+                  <div class="history__name">Напитки</div>
                 </div>
-                <div class="history__statistics_block">
-                  <div class="history__statistics_number">206</div>
-                  <div class="history__statistics_name">Еда</div>
+                <div class="history__card">
+                  <div class="history__number">206</div>
+                  <div class="history__name">Еда</div>
                 </div>
-                <div class="history__statistics_block">
-                  <div class="history__statistics_number">71</div>
-                  <div class="history__statistics_name">Закуски</div>
+                <div class="history__card">
+                  <div class="history__number">71</div>
+                  <div class="history__name">Закуски</div>
                 </div>
               </div>
             </div>
-            <div class="history__right_section">
-              <div class="history__image">
-                <div src="/species.png" class="history__image_species" alt="species"></div>
+            <div class="history__right">
+              <div>
+                <img src="./species.png" class="history__img_species" alt="species"></img>
               </div>
-              <div class="history__image">
-                <div class="img"></div>
+              <div>
+                <img src="./cake.png" alt="cake" class="history__img_cake">
               </div>
-              <div class="history__image">
-                <div class="img"></div>
+              <div>
+                <img src="./restraunt.png" alt="restraunt" class="history__img_restraunt">
               </div>
-              <div class="history__image">
-                <div class="img"></div>
+              <div>
+                <img src="./box.png" alt="box" class="history__img_box">
               </div>
             </div>
-           </div>
-
-
-         </div>
-       </div>
-  </section>
+          </div>
+          </div>
+           </section>
+           <!-- CELEBRATE -->
+           <section class="celebrate">
+             <div class="container">
+               <div class="celebrate__wrapper">
+                 <div class="celebrate__left">
+                  <h3>Отпразднуйте в одном из 
+                    самых лучших ресторанов.</h3>
+                  <p>Только в этом месяце бизнес-ланч от 250 ₽</p>
+                 </div>
+                 <div class="celebrate__right">
+                   <button type="button" class="order__btn">ЗАКАЗ СТОЛИКА</button>
+                 </div>
+               </div>
+             </div>
+           </section>
+           <!-- MEALS -->
+           <section class="meals">
+             <div class="container">
+              <h3>Наши <span class="yellow__drop">Блюда</span></h3>
+               <div class="meals__wrapper">
+                 <div class="meals__left">
+                  <img src="./pizza.png" alt="pizza">
+                 </div>
+                 <div class="meals__right">
+                  <div class="meals__card">
+                    <img src="./hamburger.png" alt="hamburger">
+                    <p>Гамбургер мини</p>
+                  </div>
+                  <div class="meals__card">
+                    <img src="./hamburger.png" alt="hamburger">
+                    <p>Гамбургер мини</p>
+                  </div>
+                  <div class="meals__card">
+                    <img src="./hamburger.png" alt="hamburger">
+                    <p>Гамбургер мини</p>
+                  </div>
+                 </div>
+               </div>
+             </div>
+           </section>
 </main>
-
 <section class="modal-window">
   <div class="modal-window__wrapper">
     <h1>Modal Window</h1>
