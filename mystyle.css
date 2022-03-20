@@ -495,6 +495,7 @@ margin-top: 35px;
 .meals__card {
   display: flex;
   align-items: center;
+  margin: 0 0 29px 29px;
 }
 
 .meals__card p { 
@@ -534,4 +535,121 @@ margin-top: 35px;
 
 .meals__img-big_active {
   display: block;
-};
+}
+
+.menu {
+  background-image: url("./menu.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.menu__header {
+  padding-top: 100px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 62px;
+  color: #FFFFFF;
+  text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.menu__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__card {
+  position: relative;
+  background: #FFFFFF;
+  text-align: center;
+  margin: 138px 0 260px 0;
+  padding: 80px 60px 30px 60px;
+}
+
+.menu__rec-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background: #D67E34;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+.card__btn {
+  margin: 0;
+}
+
+.menu__card-header {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #000000;
+  margin: 17px auto;
+}
+
+.menu__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.menu__img {
+  position: relative;
+}
+
+.menu__img-small {
+  position: absolute;
+  top: 130px;
+  left: 130px;
+}
+
+.customers {
+  background-color: #d1cbcb;
+}
+
+.customer__text {
+  padding: 0px 100px 30px 100px;
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.customer__wrapper {
+  text-align: center;
+  padding: 100px 0 100px 0;
+}
+
+.customer__photo {
+  margin-bottom: 17px;
+}
+
+.customer__title {
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.customer__name {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+}
